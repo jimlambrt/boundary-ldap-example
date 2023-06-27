@@ -20,6 +20,13 @@ make tools
 make install
 ```
 
+### See Also:
+As part of developing Boundary's LDAP auth method, a few other pkgs were open
+sourced:
+* [cap LDAP](https://github.com/hashicorp/cap/tree/main/ldap)
+* [gldap](https://github.com/jimlambrt/gldap)
+
+
 ## Example files
 * `main.tf` - contains all the required TF
 * `query-ldap.sh` - a simple script to query the Forum Systems LDAP service for
