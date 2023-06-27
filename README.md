@@ -76,7 +76,7 @@ boundary authenticate ldap -auth-method-id $AUTH_METHOD_ID -login-name einstein
 # now, read that acct info and you'll see that it's a member of the "Scientists" 
 # managed group
 
-boundary auth-methods read <ldap-account-id for einstein>
+boundary accounts read <ldap-account-id for einstein>
 
 
 # now connect to one of the existing boundary targets using einstein's auth-token
