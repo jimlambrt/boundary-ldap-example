@@ -10,6 +10,16 @@ install and configure an LDAP sever in order to test/run the example. The test
 directory contains users and groups and for this example we'll be using the
 `einstein` user and the `Scientists` group.
 
+NOTE: Unfortunately, Boundary `v0.13.0` has a defect, so you'll need to either
+build Boundary locally or wait for a patch release before running this example.
+Luckily, building Boundary is pretty simple: 
+``` 
+git clone https://github.com/hashicorp/boundary.git
+cd boundary
+make tools
+make install
+```
+
 ## Example files
 * `main.tf` - contains all the required TF
 * `query-ldap.sh` - a simple script to query the Forum Systems LDAP service for
