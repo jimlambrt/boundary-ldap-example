@@ -85,7 +85,7 @@ boundary auth-methods read -id $AUTH_METHOD_ID
 
 # authenticate as the default admin login name, using the default primary auth-method
 
-boundary authenticate password -login-name admin
+boundary authenticate password -auth-method-id ampw_1234567890 -login-name admin
 
 
 # now, you can successfully read the forumsys public LDAP using the admin auth-token
