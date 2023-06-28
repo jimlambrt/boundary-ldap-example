@@ -34,10 +34,10 @@ sourced:
 
 ## Example files
 
-* `main.tf` - contains all the required TF
-* `query-ldap.sh` - query the Forum Systems LDAP service for both the `einstein`
+* [main.tf](main.tf) - contains all the required TF
+* [query-ldap.sh](query-ldap.sh) - query the Forum Systems LDAP service for both the `einstein`
   account and the `Scientist` group.
-* `dev-query-ldap.sh` - query the LDAP server embedded within `boundary dev`
+* [dev-query-ldap.sh](dev-query-ldap.sh) - query the LDAP server embedded within `boundary dev`
 
 ## Usage
 
