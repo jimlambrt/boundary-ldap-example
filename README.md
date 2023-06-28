@@ -46,7 +46,7 @@ sourced:
 boundary dev
 
 # first, before we begin the "real" demo, it might surprise you to learn that 
-# "boundary dev" as an LDAP server embedded within it, which you can use to 
+# "boundary dev" has an LDAP server embedded within it, which you can use to 
 # authenticate.  Crazy right?  Using the gldap pkg (see above) you can build 
 # your own custom LDAP service too... if you want/need to.
 
@@ -88,7 +88,7 @@ export AUTH_METHOD_ID=<new-ldap-auth-method-id>
 boundary authenticate ldap -auth-method-id $AUTH_METHOD_ID -login-name einstein
 
 
-# when the authen cmd above is successful, you'll see the acct id in it's output.
+# when the authen cmd above is successful, you'll see the acct id in its output.
 # now, read that acct info and you'll see that it's a member of the "Scientists" 
 # managed group
 
